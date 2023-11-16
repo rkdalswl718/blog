@@ -1,0 +1,22 @@
+
+
+.Post_fire {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 2px;
+}
+
+.Post_Popular {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2.5px solid #333333;
+    width: 75px;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.Post_Hot {
+    margin-bottom: 2px;
+    margin-left: 3px;
+}

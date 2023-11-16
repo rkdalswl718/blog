@@ -10,7 +10,7 @@ const Header = () => {
                 <div className="Header_InputBox">
                 <input type="text" className='Header_sreach' placeholder='검색하기...'/>
                 </div>
-                <img src={Lupi} className='Header_Profile'/>
+                <img src={Lupi} className='Header_Profile' alt=''/>
                 <hr></hr>
 
             </header>
