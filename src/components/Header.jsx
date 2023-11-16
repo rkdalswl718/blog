@@ -1,5 +1,6 @@
 import React from 'react';
 import Lupi from '../img/루피.jpg'
+import down from '../img/down.svg'
 import "./css/header.css"
 
 const Header = () => {
@@ -11,8 +12,7 @@ const Header = () => {
                 <input type="text" className='Header_sreach' placeholder='검색하기...'/>
                 </div>
                 <img src={Lupi} className='Header_Profile' alt=''/>
-                <hr></hr>
-
+                <img src={down} className='Header_down' alt="" />
             </header>
         </div>
     );

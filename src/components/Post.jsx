@@ -28,6 +28,22 @@ title: "세 번째 글",
 content: "웅애",
 hashtags: ["Randomㅇㅇ"],
 },
+{
+id: 4,
+img: "https://i.pinimg.com/564x/38/98/a7/3898a7aa20f4af6a42326fc115a49ee7.jpg",
+timestamp: "2023-13-15T16:20:00Z",
+title: "444 번째 글",
+content: "웅sdas애",
+hashtags: ["chooooo"],
+},
+{
+id: 4,
+img: "https://i.pinimg.com/564x/38/98/a7/3898a7aa20f4af6a42326fc115a49ee7.jpg",
+timestamp: "2023-13-15T16:20:00Z",
+title: "444 번째 글",
+content: "웅sdas애",
+hashtags: ["chooooo"],
+},
 ];
 
 return (
@@ -38,18 +54,20 @@ return (
     </div>
     <div className="Post_map">
         {Posts.map((item) => (
+            <div className="Post_box">
+                <img src={item.img} className="Post_img" alt="" />
             <div key={item.timestamp} className="Post_item">
-            <img src={item.img} className="Post_img" alt="" />
             <span className="Post_timestamp">{new Date(item.timestamp).toLocaleString()}</span>
             <h2>{item.title}</h2>
             <p>{item.content}</p>
             <div className="Post_Metadata">
                 <div className="Post_Hashtags">
-                    {item.hashtags.map((tag, index) => (
-                        <span key={index} className="Post_Hashtag">{tag}</span>
+                    {item.hashtags.map((tag, id) => (
+                        <span key={id} className="Post_Hashtag">{tag}</span>
                     ))}
                 </div>
             </div>
+        </div>
         </div>
 ))}
 
