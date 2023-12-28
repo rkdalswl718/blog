@@ -1,0 +1,56 @@
+.Header_Container {
+}
+
+.Header_Header {
+    display: flex;
+    height: 66px;
+    align-items: center;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.Header_Title {
+    font-weight: 900;
+    font-size: 30px;
+    margin-left: 200px;
+}
+
+.Header_Profile {
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 100%;
+    margin-left: 10px;
+}
+
+.Header_down {
+    width: 10px;
+    height: 8px;
+    margin-left: 8px;
+}
+
+.Header_InputBox {
+    width: 140px;
+    height: 35px;
+    margin-left: 850px;
+    border: 1px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+    text-indent: 14px;
+}
+
+
+.Header_sreach:focus {
+    border: none;
+    outline: none;
+}
+
+
+.Header_sreach {
+    border: none;
+    height: 35px;
+}
+
+::placeholder {
+    padding: px;
+}
+
